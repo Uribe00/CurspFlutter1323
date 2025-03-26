@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uribecurso/mi_widgets/dialogo_acerca_de.dart';
+import 'package:uribecurso/mi_widgets/elemento_de_lista.dart';
 
 const Color darkBlue = Color(0xff0c3b8c);
 
@@ -19,8 +19,9 @@ class MiTarjeta extends StatelessWidget {
             title: const Text("Flutter Uribe"),
             centerTitle: true,
           ),
-          body: const DialogoAcercaDe(),
+          //body: const DialogoAcercaDe(),
           // body: const LaTarjeta(),
+          body: const AboutListTilee(),
         ));
   }
 }
