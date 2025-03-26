@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-
-import 'package:uribecurso/mi_widgets/mi_tarjeta.dart';
+import 'package:uribecurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xff0c3b8c);
 
 void main() => runApp(const MiTarjeta());
 
 class MiTarjeta extends StatelessWidget {
-  const MiTarjeta({Key? key}) : super(key: key);
+  const MiTarjeta({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,10 +16,11 @@ class MiTarjeta extends StatelessWidget {
         title: "Flutter Widget",
         home: Scaffold(
           appBar: AppBar(
-            title: Text("Flutter Uribe"),
+            title: const Text("Flutter Uribe"),
             centerTitle: true,
           ),
-          body: LaTarjeta(),
+          body: const DialogoAcercaDe(),
+          // body: const LaTarjeta(),
         ));
   }
 }

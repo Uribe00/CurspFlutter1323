@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LaTarjeta extends StatelessWidget {
-  const LaTarjeta({Key? key}) : super(key: key);
+  const LaTarjeta({super.key});
 
   @override
   Widget build(BuildContext context) {
